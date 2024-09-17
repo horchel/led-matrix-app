@@ -2,8 +2,8 @@ const { GpioMapping, LedMatrix } = require('rpi-led-matrix');
 
 // Matrix-Konfiguration
 const matrixOptions = {
-  rows: 32,
-  cols: 64,
+  rows: 48,
+  cols: 96,
   chainLength: 1,
   parallel: 1,
   hardwareMapping: GpioMapping.AdafruitHat // Anpassbar je nach Hardware
