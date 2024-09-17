@@ -1,0 +1,12 @@
+{
+  "name": "led-matrix-app",
+  "version": "1.0.0",
+  "description": "Anwendung zur Steuerung einer LED-Matrix auf einem Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "rpi-rgb-led-matrix": "^1.0.0"
+  }
+}
